@@ -26,6 +26,6 @@ public class Primes {
             }
         }
         double per = ((double)count / N) * 100; 
-        System.out.println("There are " + count + " primes between 2 and " + N + ". (" + (int) (per) + "% are primes)"); 
+        System.out.println("There are " + count + " primes between 2 and " + N + " (" + (int) (per) + "% are primes)"); 
     }
 }

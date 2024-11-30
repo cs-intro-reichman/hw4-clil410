@@ -25,10 +25,10 @@ public class KeywordsDetector {
         while ( i < sentences.length) {
             for (int j = 0; j < keywords.length; j++) {
                 String str1 = sentences[i];
-                str1 = MyString.lowerCase(str1);
+                String str1Lower = MyString.lowerCase(str1);
                 String str2 = keywords[j];
                 str2 = MyString.lowerCase(str2);
-                if (MyString.contains(str1, str2)) {
+                if (MyString.contains(str1Lower, str2)) {
                     System.out.println(str1);
                     break;
                 }
